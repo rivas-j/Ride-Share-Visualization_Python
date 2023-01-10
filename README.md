@@ -1,34 +1,57 @@
-# PyBer Ride Sharing Analysis by City Type
+<!--- 
+Use Case: This readme template is designed for readable documentation of portfolio projects
+File Structure: Place this readme in the main project folder, make sure there is an images folder containing all screenshots for the image links to properly work
+--->
 
-## Overview
+# Project Name
 
-Working at PyBer, the CEO tasked our group with analyzing local ride sharing data from January to early May 2019. In order to accomplish this analysis, we imported two CSV files containing a large amount of ride sharing data into panda dataframes housed in Jupyter Notebook. The panda dataframes allowed us to accurately summarize ride sharing data by city type using the groupby method. By importing the Matplotlib module, we were also able to visualize our findings, as requested by our CEO. Below you'll find our results, visualizations and recommendations based on our analysis of local ride sharing data.
+![Image showcasing the tool](images/image.jpg)
 
+## <div align="center">Short blurb describing what the tool does</div>
 
-## Results
+<p align="center">
+<a href="#goals">Goals</a> &nbsp;&bull;&nbsp;
+<a href="#dataset">Dataset</a> &nbsp;&bull;&nbsp;
+<a href="#tools-used">Tools Used</a> &nbsp;&bull;&nbsp;
+<a href="#analysis-and-challenges">Analysis and Challenges</a> &nbsp;&bull;&nbsp;
+<a href="#results">Results</a> &nbsp;&bull;&nbsp;
+<a href="#summary">Summary</a>
+</p>
 
-### PyBer Ride Sharing Summary
+# <div align="center">Goals</div>
+What should be true after this project is implemented? The objective is to demonstrate the project's value. Edit for clarity and remove any language specific to curriculum (i.e. fictional names, narratives). Make the report seem like a case study, not an assignment. Include a high-level overview of the analysis so that recruiters with limited technical knowledge can understand what your project is about without drilling down.  The key is to make everything easy for employers so they can review more of your work.
 
-![PyBer Summary Chart](https://github.com/rivas-j/PyBer_Challenge/blob/633f2b766354680101b02924c8d5415e8266783c/Analysis/PyBer_Summary.png)
-
-According to the above findings, the urban areas saw the most activity by total rides, and the most amount of drivers: followed respectively by suburban and rural areas. There is a direct relationship between the amount of riders, drivers and total fares. The urban areas saw the highest total fares, followed by suburban, then rural areas. Consequently, because of the concentration of drivers in the urban area, we also saw the lowest amount of Average Fare per Ride and Average Fare per Driver. This indicates that there is an inverse relationship between the amount of drivers and the average fares across the board. The rural areas had the lowest amount of drivers and rides, and the highest average fares. 
-
-### PyBer Ride Sharing by Month
-
-![PyBer Summary Graph](https://github.com/rivas-j/PyBer_Challenge/blob/633f2b766354680101b02924c8d5415e8266783c/Analysis/Pyber_Fare_Summary.png)
-
-For this visualization, we added another dimension to our analysis, time. We tracked the fluctuations in total fare from the months of January to early May in each city type. A line chart was our recommendation because we felt it best illustrated total fares over a set period of time.
-
-The positions of the urban, suburban and rural lines support our findings in the chart summary above. Urban areas saw the highests fares, followed by suburban and rural areas. Late February showed a spike in total fares for all three city types. We also noticed a dip in fares for urban and rural areas in late april, but a spike in fares in suburban areas.
-
-## Summary: 
-
-Based on our findings, please see below three recommendations on how to allocate resources in the metro area:
+Sample: Puppy Analysis answers the question, how many puppies were adopted from shelters across the United States during the 2020 Covid-19 pandemic. Observes a total number of dogs adopted, breed demographics, and the number of dogs adopted by a state.”
 
 
-1. There is a major shortage of drivers in rural areas. We suggest using our findings to incentivize drivers primarily working in urban areas to take advantage of higher fares that come with rural ridership.
-2. Late February is showing a sharp spike upward in fares, followed another spike downward in fares in all three city types. It's worth investigating what might be causing this, possibly a holiday?
-3. We would suggest directing drivers to the suburban area in late April, since we're seeing a spike in fares in that area coupled with a drop in fares in the urban and rural areas. This could indicate higher rider demand in the suburban area at that time of the year.
+# <div align="center">Dataset</div>
+High level explanation of data source
+
+- [Data Set File Name](data/data_source.format): Explain source of file, size of dataset and format
+
+# <div align="center">Tools Used</div>
+- **Tool 1:** Tool purpose
+- **Tool 2:** Tool purpose
+
+
+# <div align="center">Analysis and Challenges</div>
+In depth detail on steps taken to solve problem, including tools and how we modeled the data, include screenshots and code snippets
+
+![Image title](images/image.jpg)
+
+```
+Code snippet
+```
+
+# <div align="center">Results</div>
+
+
+# <div align="center">Summary</div>
+
+[Back to top](#project-name)
+
+
+
 
 
 
